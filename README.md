@@ -8,7 +8,7 @@ To improve the geometry (surface normal map) reconstruction efficiency of camera
 <img src="./imgs/SymmeTacTeaser.jpg" width=400px />
 
 ## 2. Experiment Results
-To evaluate the effectiveness of our method, we conduct simulation experiments on rendered images, and real-world experiments on robot.
+To evaluate the effectiveness of our method, we conduct simulation experiments on rendered images, and real-world experiments on robot.<br>
 
 ### 2.1 Simulation 
 To evaluate the performance on complex surface tactle details, we select 5 reliefs as test object. We use Blender and Cycles render engine to render images with diverse surface situation: Lambertian, spatial-variable and channel-wise albedo (Lamb + **Alsp.**), shadow (Lamb + **Alsp.** + **Shad.**), and speculare reflection (Lamb + **Alsp.** + **Spec.**). <br>
@@ -19,23 +19,23 @@ We chose typical photometric stereo algorithms: LSPS and RGB-PS, and compared th
 
 The robustness under shadows and specular reflections of our method was also evaluated.<br>
 <img src="./imgs/CompRobust9.jpg" width=400px />
-
-
+<br>
 
 ### 2.2 Real-world Experiments
 We febricate a camera-based tactile sensor with propose light configuration and conduct e benchmark experiment, dynamic experiment, as well as the general tactile experiment. The equipment is prensent as follows:<br>
-<img src="./imgs/Equipmentfigure5.jpg" width=800px />
+<img src="./imgs/Equipmentfigure5.jpg" width=800px /><br><br>
 
 - **Mini-Dataset.** We fabricate a mini dataset with diverse objects:<br>
 <img src="./imgs/miniDataset.jpg" width=800px />
 and evaluate the reconstrcution results with proposed sensor and method:<br>
 <img src="./imgs/RevImpMiniDataset.jpg" width=800px />
-
+<br>
 
 - **Dynamic Exp.** To exhibit the high-efficency, we use the sensor to record the tactile information when manipulating the tools:<br>
 <img src="./imgs/hammber.gif" width=350px height=200px /><img src="./imgs/chuiN.gif" height=200px /><br>
 <img src="./imgs/spoon.gif" width=350px height=200px /><img src="./imgs/cupN.gif" height=200px /><br>
 <img src="./imgs/cake.gif" width=350px height=200px /><img src="./imgs/cakeN.gif" height=200px />
+<br>
 
 - **General Exp.** To exhibit the generality of the proposed method, we test the sensor on diverse objects:<br>
 <img src="./imgs/RevImpGeneExp.jpg" width=800px />
