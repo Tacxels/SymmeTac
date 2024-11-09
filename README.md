@@ -26,22 +26,18 @@ The robustness under shadows and specular reflections of our method was also eva
 We febricate a camera-based tactile sensor with propose light configuration and conduct e benchmark experiment, dynamic experiment, as well as the general tactile experiment. The equipment is prensent as follows:<br>
 <img src="./imgs/Equipmentfigure5.jpg" width=800px />
 
-**Mini-Dataset.** We fabricate a mini dataset with diverse objects:<br>
+- **Mini-Dataset.** We fabricate a mini dataset with diverse objects:<br>
 <img src="./imgs/miniDataset.jpg" width=800px />
 and evaluate the reconstrcution results with proposed sensor and method:<br>
 <img src="./imgs/RevImpMiniDataset.jpg" width=800px />
 
----
-**Dynamic Exp.** To exhibit the high-efficency, we use the sensor to record the tactile information when manipulating the tools:<br>
-<img src="./imgs/hummber.gif" width=400px /><img src="./imgs/hummber.gif" width=400px />
-<br>
-<img src="./imgs/hummber.gif" width=400px /><img src="./imgs/hummber.gif" width=400px />
-<br>
-<img src="./imgs/hummber.gif" width=400px /><img src="./imgs/hummber.gif" width=400px />
-<br>
 
----
-**General Exp.** To exhibit the generality of the proposed method, we test the sensor on diverse objects:<br>
+- **Dynamic Exp.** To exhibit the high-efficency, we use the sensor to record the tactile information when manipulating the tools:<br>
+<img src="./imgs/hammber.gif" width=350px height=200px /><img src="./imgs/chuiN.gif" height=200px /><br>
+<img src="./imgs/spoon.gif" width=350px height=200px /><img src="./imgs/cupN.gif" height=200px /><br>
+<img src="./imgs/cake.gif" width=350px height=200px /><img src="./imgs/cakeN.gif" height=200px />
+
+- **General Exp.** To exhibit the generality of the proposed method, we test the sensor on diverse objects:<br>
 <img src="./imgs/RevImpGeneExp.jpg" width=800px />
 
 
