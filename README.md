@@ -1,7 +1,7 @@
 # SymmeTac
 > This repo contains the details of SymmeTac, which is a high-efficiency photometric stereo method for camera-based tactile sensor.
 
-[Symmetric Color LED Driven Effcient Photometric Stereo Reconstruction Methods for Camera-based Tactile Sensors](arxiv.org/abs/xxxx.xxxx)
+[Symmetric Color LED Driven Effcient Photometric Stereo Reconstruction Methods for Camera-based Tactile Sensors](http://arxiv.org/abs/2411.06377)
 
 ## 1. Brife Review
 To improve the geometry (surface normal map) reconstruction efficiency of camera-based tactile sensor, we propose SymmeTac. SymmeTac fully leverages the symmetric prior of light source and the spectral charictristics of CMOS to achieve highly efficient surface normal reconstruction. Specifically, the symmetric prior of light soruce can simplify the imaging process, and lead to a very simple equation for surface normal calculation; The red and blue channel of chromatic camera has little crosstalk, which helps us obtain two observations with one capture. <br><br>
